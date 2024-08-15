@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+html, body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(227, 224, 224);
+  
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 30px;
+  text-align: center;
+  color: rgb(68, 68, 68);
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgb(198, 198, 198);
+  border-radius: 10px;
+}
+
+.input-btn-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.input-wrapper input {
+  position: relative;
+  padding: 20px;
+  border: none;
+  border-radius: 40px;
+  width: 400px;
+  height: 40px;
+  font-size: 16px;
+  outline:none;
+  background-color: rgb(198, 198, 198);
+  -webkit-box-shadow: 0px 3px 11px -3px rgba(0, 0, 0, 0.6) inset;
+  -moz-box-shadow: 0px 3px 11px -3px rgba(0, 0, 0, 0.6) inset;
+  box-shadow: 0px 3px 11px -3px rgba(0, 0, 0, 0.6) inset;
+}
+
+
+.button-wrapper {
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  background-color: rgb(5, 109, 16);
+  -webkit-box-shadow: 0px 3px 11px -3px rgb(198, 198, 198) inset;
+  -moz-box-shadow: 0px 3px 11px -3px rgb(198, 198, 198) inset;
+  box-shadow: 0px 3px 11px -3px rgb(198, 198, 198) inset;
+  color: rgb(213, 218, 213);
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 80px;
+  height: 40px;
+  transition: 0.5s;
+}
+
+.button-wrapper:hover {
+  -webkit-box-shadow: 0px 3px 11px -3px rgba(0, 0, 0, 0.6) inset;
+  -moz-box-shadow: 0px 3px 11px -3px  rgba(0, 0, 0, 0.6) inset;
+  box-shadow: 0px 3px 11px -3px  rgba(0, 0, 0, 0.6) inset;
+  background-color: rgb(2, 94, 36);
+}
+
+.todo-list {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4f4f4f;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-bottom: 1px solid #949494;
+}
+
+.todo-list.checked {
+  background-color: rgba(2, 93, 35, 0.401);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.checkbox-input {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  accent-color: rgb(75, 75, 75);
+  margin-right: 30px;
+}
+
+.delete-btn {
+  position: relative;
+  cursor: pointer;
+  border: none;
+  background: no-repeat;
+  font-size: 30px;
+  color: #4f4f4f;
+  transition: 0.3s;
+  opacity: 0.5;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  color: #353535;
+}
+
+
+
+
+
+
+
+

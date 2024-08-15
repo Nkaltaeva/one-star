@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Список задач</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Список задач</h1>
+ <div class="container">
+    <div class="input-btn-container">
+        <div class="input-wrapper">
+            <input onkeydown="return checkPhoneKey(event.key)" type="text" placeholder="Введите название задачи" id="task-input">
+        </div>
+        <button id="task-add" class="button-wrapper">+</button>
+    </div>
+    <div class="task-list">
+    </div>
+</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
+    
